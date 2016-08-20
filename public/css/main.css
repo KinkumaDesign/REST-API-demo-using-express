@@ -1,0 +1,70 @@
+body{
+    background: #fff;
+    padding: 30px;
+    font-family: sans-serif;
+}
+.section{
+    margin-bottom: 20px;
+}
+button{
+    box-sizing: border-box;
+    background: #eee;
+    border:1px solid #ccc;
+    cursor: pointer;
+}
+button:hover{
+    background: #fff;
+}
+.input-todo{
+    height:36px;
+    width:320px;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size:16px;
+    margin-right: 5px;
+}
+.add-button{
+    width:74px;
+    height:36px;
+    font-size:16px;
+}
+.todo-list{
+    width:400px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.todo-list li:first-child{
+    border-top: 1px solid #ccc;
+}
+.todo-list li{
+    padding: 8px 8px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+}
+.todo-list li:hover{
+    background: #eaeaea;
+}
+.todo-list li.complete{
+    background: #999;
+}
+.todo-list li.complete:hover{
+    background: #ccc;
+}
+.todo-list li p.text{
+    flex-grow: 1;
+    padding-top: 4px;
+}
+.todo-list li p.delete-button{
+    background: #fff;
+    width:50px;
+    padding: 5px;
+    font-size:12px;
+    border:1px solid #ccc;
+    text-align: center;
+}
+.todo-list li p.delete-button:hover{
+    background: #ff6a3c;
+}
