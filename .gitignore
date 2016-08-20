@@ -61,5 +61,7 @@ node_modules/
 #js
 public/js/main.js
 
+data/
+
 #source map
 *.map
